@@ -2,6 +2,10 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
+    if number_of_primes < 0 :
+        raise ValueError('function cannot be ran on 0 or negative numbers')
+
+    
     list = []
     testNumber = 1
     flag = False
